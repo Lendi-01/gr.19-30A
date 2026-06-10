@@ -1,0 +1,34 @@
+p{
+     margin-top: 100px;
+     margin-bottom: 100px;
+     margin-left: 100px;
+     margin-right: 100px;
+
+     background-color: rgb(224, 224, 218);
+}
+
+/*    //Margins with 4 parameters
+p{
+  margin: 100px 150px 60px 80px ;  
+}
+      //Margin with 1 parameter
+p{
+    margin: 100px;
+}
+     //Margins with 3 parameters
+p{
+    margin: 100px 200px 50px;
+}
+    */
+
+    div{
+         padding: 50px; 
+         border: 15px solid green ;
+         margin: 50px;
+        background-color: antiquewhite;
+        width: 250px;
+
+
+    }
+
+          
