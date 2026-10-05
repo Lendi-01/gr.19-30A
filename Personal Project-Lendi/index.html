@@ -3,18 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome to 7ScoreF</title>
+    <title>Welcome to Football Hub</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <h1 class="welcome-1">WELCOME TO 7ScoreF</h1>
+    <div class="home">
+    <h1 class="welcome-1">Welcome to FootballHub</h1>
     <br><br>
     <section id="section-1">
         <div class="container">
             <header>
                 <img src="foto/download.png" class="k-image">
                 <nav>
-                    <ul class="hmta">
+                    <ul class="hmta"><
                         <h1><li ><a href="#">HOME</a></li></h2>
                         <h1><li ><a href="matches.html">MATCHES</a></li></h1>
                         <h1><li ><a href="teams.html">TEAMS </a></li></h1>
@@ -27,16 +28,16 @@
 
     <br><br><br>
 
-    <div>
+    <div class="personal">
          <h1>
-            Personal Info Below:
+            <p>Personal Info Below:</p>
          </h1>
     </div>
 
     <br>
     
     <fieldset>
-      <legend>Personal info:</legend>
+      <legend class="pf">Personal info:</legend>
 
     <form action="" class="info-p">
         <label for="firstname">First Name:</label><br>
@@ -47,10 +48,7 @@
 
         <label for="email">Email:</label><br>
         <input type="text" name="email" id="email" required><br>
-
-        <label for="password">Password:</label><br>
-        <input type="text" name="password" id="password" required><br>
-
+       
         <label for="age">Age:</label><br>
         <input type="number" name="age" id="age" required><br><br>
 
@@ -65,14 +63,14 @@
         <input type="checkbox" name="Premier League" id="Premier League" value="Premier League">
         <label for="Premier League ">Premier League </label><br>
 
-        <input type="checkbox" name="football" id="football" value="football">
-        <label for="football">Football</label><br>
+        <input type="checkbox" name="LaLiga" id="LaLiga" value="LaLiga">
+        <label for="LaLiga">LaLiga</label><br>
 
-        <input type="checkbox" name="voleyball" id="voleyball" value="voleyball">
-        <label for="voleyball">Voleyball</label><br>
+        <input type="checkbox" name="Seria A" id="Seria A" value="Seria A">
+        <label for="Seria A">Seria A</label><br>
 
-        <input type="checkbox" name="basketball" id="basketball" value="basketball">
-        <label for="basketball">Basketball</label><br><br><br>
+        <input type="checkbox" name="League 1" id="League 1" value="League 1">
+        <label for="League 1">League 1</label><br><br><br>
 
         <label for="Your Favorite Team">Choose your Favorite Team:</label>
 
@@ -81,6 +79,7 @@
         <option value="teams">Fc Barcelona</option>
         <option value="teams">Fc Atketico Madrid</option>
         <option value="teams">Fc Sevilla</option>
+        <option value="teams">Fc Real Betis</option>
         <option value="teams">Fc Chelsea</option>
         <option value="teams">Fc Liverpool</option>
         <option value="teams">Fc Man City</option>
@@ -101,9 +100,54 @@
 
     <input type="submit" name="submit" id="submit">
 
-
     </form>
     </fieldset>
+
+</div>
+
+    <footer class="footer">
+    <div class="footer-container">
+
+        <div class="footer-section">
+            <h2>⚽ FOOTBALL HUB</h2>
+            <p>
+                Your home for football news, scores, teams,
+                fixtures and everything happening on the pitch.
+            </p>
+        </div>
+
+        <div class="footer-section">
+            <h3>Quick Links</h3>
+            <a href="#">Home</a>
+            <a href="matches.html">Matches</a>
+            <a href="teams.html">Teams</a>
+            <a href="aboutus.html">News</a>
+        </div>
+
+        <div class="footer-section">
+            <h3>Competitions</h3>
+            <a href="#">Premier League</a>
+            <a href="#">Champions League</a>
+            <a href="#">La Liga</a>
+            <a href="#">World Cup</a>
+        </div>
+
+        <div class="footer-section">
+            <h3>Follow Us</h3>
+            <div class="social-links">
+                <a href="#">Facebook</a>
+                <a href="#">Instagram</a>
+                <a href="#">X</a>
+                <a href="#">YouTube</a>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+        <p>&copy; 2026 Football Hub. All rights reserved.</p>
+    </div>
+</footer>
 </body>
 </html>
 
