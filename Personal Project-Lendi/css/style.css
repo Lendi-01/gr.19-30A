@@ -1,6 +1,6 @@
 .home{
     margin: auto;
-    background-color: black;
+    background-color: #0b2415;
 }
 
 
@@ -423,4 +423,297 @@ body {
 .manunitedft{
     width: 100px;
     width: auto;
+}
+
+
+
+
+{
+margin: 0; padding: 0; box-sizing: border-box; }
+
+body { font-family: Arial, sans-serif; background: #f5f7f5; color: #14231a; }
+
+/* NAVIGATION */
+
+nav { height: 70px; background: #0b2415;
+
+display: flex; justify-content: space-between; align-items: center;
+
+padding: 0 8%; }
+
+nav h2 { color: white; }
+
+nav h2::first-letter { color: #36e66f; }
+
+.links a { color: white; text-decoration: none;
+
+margin-left: 30px;
+
+font-size: 14px; }
+
+.links a:hover, .links .active { color: #36e66f; }
+
+/* HERO */
+
+.hero { min-height: 520px;
+
+display: flex; align-items: center;
+
+padding: 80px 10%;
+
+background: #0b2415; color: white; }
+
+.hero-text { max-width: 650px; }
+
+.green { color: #36e66f;
+
+font-size: 13px; font-weight: bold;
+
+letter-spacing: 3px;
+
+margin-bottom: 15px; }
+
+.hero h1 { font-size: 75px; line-height: 1;
+
+margin-bottom: 25px; }
+
+.hero h1 span { color: #36e66f; }
+
+.hero-text > p:last-child { color: #c5d1c9;
+
+font-size: 17px; line-height: 1.7;
+
+max-width: 550px; }
+
+/* ABOUT */
+
+.about { max-width: 1100px;
+
+margin: auto;
+
+padding: 90px 30px;
+
+display: grid; grid-template-columns: 1fr 1fr;
+
+gap: 80px;
+
+align-items: center; }
+
+.about-text h2 { font-size: 45px;
+
+margin-bottom: 25px; }
+
+.about-text h2 span { color: #159447; }
+
+.about-text p:not(.green) { color: #68736c;
+
+line-height: 1.8;
+
+margin-bottom: 15px; }
+
+/* CARD */
+
+.card { background: #0b2415;
+
+color: white;
+
+padding: 60px 35px;
+
+text-align: center;
+
+border-radius: 15px;
+
+box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15); }
+
+.ball { font-size: 90px;
+
+margin-bottom: 20px; }
+
+.card h3 { font-size: 28px;
+
+margin-bottom: 10px; }
+
+.card p { color: #b9c8bf; }
+
+/* STATS */
+
+.stats { background: #36e66f;
+
+display: flex;
+
+justify-content: center;
+
+gap: 150px;
+
+padding: 55px 20px;
+
+text-align: center; }
+
+.stats h2 { font-size: 42px; }
+
+.stats p { font-weight: bold;
+
+margin-top: 5px; }
+
+/* MISSION */
+
+.mission { background: white;
+
+text-align: center;
+
+padding: 100px 30px; }
+
+.mission h2 { font-size: 50px;
+
+line-height: 1.1;
+
+margin-bottom: 25px; }
+
+.mission h2 span { color: #159447; }
+
+.mission > p:not(.green) { max-width: 650px;
+
+margin: auto;
+
+color: #68736c;
+
+line-height: 1.8; }
+
+/* BUTTON */
+
+button { margin-top: 30px;
+
+padding: 14px 25px;
+
+border: none;
+
+background: #159447;
+
+color: white;
+
+font-weight: bold;
+
+cursor: pointer;
+
+border-radius: 5px; }
+
+button:hover { background: #0b2415; }
+
+/* FOOTER */
+
+footer { background: #0b2415;
+
+color: white;
+
+text-align: center;
+
+padding: 35px 20px; }
+
+footer p { color: #94a29a;
+
+font-size: 13px;
+
+margin-top: 8px; }
+
+/* MOBILE */
+
+@media (max-width: 700px) {
+
+nav { padding: 0 20px; }
+
+.links { display: none; }
+
+.hero { padding: 70px 25px; }
+
+.hero h1 { font-size: 52px; }
+
+.about { grid-template-columns: 1fr;
+
+padding: 60px 25px;
+
+gap: 50px; }
+
+.about-text h2 { font-size: 38px; }
+
+.stats { gap: 45px;
+
+flex-wrap: wrap; }
+
+.stats h2 { font-size: 32px; }
+
+.mission h2 { font-size: 38px; } } :::
+
+
+
+
+
+
+
+
+
+
+body {
+    font-family: Arial;
+    background-color: #f1f5f3;
+    margin: 0;
+    color: #222;
+}
+
+header {
+    background: linear-gradient(135deg, #087f3f, #064d2b);
+    color: white;
+    text-align: center;
+    padding: 35px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 32px;
+}
+
+header p {
+    color: #d8f5e5;
+}
+
+main {
+    width: 85%;
+    max-width: 900px;
+    margin: 30px auto;
+}
+
+h2 {
+    color: #087f3f;
+    margin-top: 35px;
+}
+
+.teams {
+    display: flex;
+    gap: 20px;
+}
+
+.team {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    flex: 1;
+    box-shadow: 0 3px 10px #ccc;
+    border-top: 4px solid #087f3f;
+}
+
+.team h3 {
+    color: #064d2b;
+    margin-top: 0;
+}
+
+.team p {
+    line-height: 1.5;
+    color: #555;
+}
+
+footer {
+    background-color: #064d2b;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
 }
