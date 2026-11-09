@@ -51,3 +51,21 @@ function Computer(name, CPU, GPU, RAM){
 
 var computer1 = new Computer("Macbook pro", "M1 8-core", "5000M GPU", "8GB");
 var computer2 = new Computer("Lenovo", "Intel core i7", "GeForce 1600 GPU", "16GB");
+
+varbutoni1 = document.getElementById("btn1");
+varbutoni2 = document.getElementById("btn2");
+varbutoni3 = document.getElementById("btn3");
+
+butoni1.oncliclck=function(){
+    alert('Blerje e kryer');
+} 
+
+
+butoni2.onmouseover=function(){
+    alert('sapo vendosa mausin permbi meje');
+}
+
+
+butoni3.onmouseleave=function(){
+    alert('po largohet mause nga butoni');
+}
