@@ -25,7 +25,7 @@ console.log(programmingLanguages);
 
 
 console.log(Math.random()*5);
-console.log(Math.floor(Math.random()*5));
+console.log(Math.floor(Math.random()*5);
 
 
 var students = ['Stuent1' , 'Student2'];
